@@ -10,7 +10,7 @@ var adminID int64 // чат ID того человека, который при�
 var channelID int64 // ID вашего канала
 
 func main() {
-	bot, err := tg.NewBotAPI("7504491183:AAEWT9H4SMj_clb_FViTrdv09TNOz44UuKM")
+	bot, err := tg.NewBotAPI("токен")
 	if err != nil {
 		log.Println("Ошибка токена: ", err)
 		return
